@@ -10,6 +10,43 @@ header {
   box-shadow: 0 1px 0 rgba(0, 0, 0, 0.06);
   z-index: 9999;
   height: 60px;
+
+  .full-search {
+    .busca {
+
+      legend, label, select {
+        display: none;
+      }
+
+      .fulltext-search-box {
+        width: 70%;
+        margin-right: 8px;
+      }
+
+      input:focus {
+        border-bottom: 1px solid #4facfe !important;
+        box-shadow: 0 1px 0 0 #4facfe !important
+      }
+
+      .btn-buscar {
+        left: 2px;
+        font-size: 12px;
+        font-weight: 700;
+        padding: 8px;
+        border: 0px;
+        border-radius: 4px;
+        color: #fff;
+        background-color: #4facfe;
+        border: 2px solid #fff;
+
+        &:hover{
+          border: 2px solid #4facfe;
+          color: #4facfe;
+          background-color: #fff;
+        }
+      }
+    }
+  }
 }
 
 nav.navbar.navbar-light {
@@ -61,7 +98,7 @@ nav.navbar.navbar-light {
 }
 
 .showMiniCart {
-  right: -35px !important;
+  left: 100% !important;
 }
 
 .portal-totalizers-ref{
@@ -74,7 +111,7 @@ nav.navbar.navbar-light {
   position: absolute;
   background: #ebebeb;
   top: -5px;
-  right: -100%;
+  right: -150%;
   max-width: 320px;
   width: 100%;
   overflow: hidden;
@@ -115,4 +152,8 @@ nav.navbar.navbar-light {
   text-align: center;
   font-size: 1.8rem;
   line-height: 5rem;
+}
+
+.v2-vtexsc-cart .vtexsc-cart .mouseActivated .preLoaded{
+  display: block!important;
 }

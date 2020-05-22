@@ -2,9 +2,8 @@
   margin-top: 20px !important;
   width: 100%;
   padding-top: 20px;
-  padding-right: 180px;
-  padding-left: 180px;
-  justify-content: space-around;
+  text-align: center;
+  font-weight: bolder;
 }
 
 .footer-style {
@@ -18,4 +17,7 @@
 
 .footer-ul {
   list-style: none;
+  display: inline-block;
+  padding: 20px;
+  font-size: 12px;
 }

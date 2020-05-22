@@ -23,4 +23,6 @@ export const Header = () => {
     $("#backdrop-minicart").removeClass("showBackdrop");
   });
 
+  $('.fulltext-search-box').attr('placeholder', 'Digite Aqui');
+
 };
